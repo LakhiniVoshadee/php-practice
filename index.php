@@ -19,5 +19,7 @@
     <a href="/pages/Constants.php"> Constants</a>
     <br>
     <a href="/pages/Abstract.php"> Abstract</a>
+    <br>
+    <a href="/pages/Interfaces.php"> Interfaces</a>
 
 </html>
