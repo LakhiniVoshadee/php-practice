@@ -13,6 +13,8 @@
     <a href="/pages/class.php">study about class</a>
     <br>
     <a href="/pages/Fruit.php"> Fruit</a>
+    <br>
+    <a href="/pages/Animal.php"> Animal- created for learning abt Inheritance</a>
 </body>
 
 </html>

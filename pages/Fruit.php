@@ -3,8 +3,8 @@ class Fruit{
 
     // properties
     public $name;
-    public $color;
-    public $weight;
+    protected $color;
+    private $weight;
 
     // The __construct Function
     function __construct($name = null, $color = null, $weight = null){
