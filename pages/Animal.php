@@ -10,9 +10,15 @@ class Animal{
         $this->color = $color;
     }
 
-    public function intro(){
+    // public function intro(){
+    //     echo "The animal is {$this->name} and the color is {$this->color}.";
+    // }
+
+    protected function intro(){
         echo "The animal is {$this->name} and the color is {$this->color}.";
     }
+
+    
 
 }
 
@@ -26,5 +32,5 @@ class Dog extends Animal{
 // Create an object of the Dog class
 $dog = new Dog("Dog", "Brown");
 $dog->message();
-$dog->intro();
+$dog->intro(); //error. intro() is protected
 ?>
