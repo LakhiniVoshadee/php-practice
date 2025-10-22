@@ -23,4 +23,6 @@
     <a href="/pages/Interfaces.php"> Interfaces</a>
     <br>
     <a href="/pages/Traits.php"> Trait</a>
+    <br>
+    <a href="/pages/StaticMethods.php"> Static Methods</a>
 </body>
