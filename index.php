@@ -25,4 +25,6 @@
     <a href="/pages/Traits.php"> Trait</a>
     <br>
     <a href="/pages/StaticMethods.php"> Static Methods</a>
+    <br>
+    <a href="/pages/StaticProperties.php"> Static Properties</a>
 </body>
