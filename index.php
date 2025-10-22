@@ -27,4 +27,7 @@
     <a href="/pages/StaticMethods.php"> Static Methods</a>
     <br>
     <a href="/pages/StaticProperties.php"> Static Properties</a>
-</body>
+    <br>
+    <a href="/pages/Namespaces.php"> Namespaces</a>
+    <br>
+    <a href="/pages/Iterables.php"> Iterables</a>
