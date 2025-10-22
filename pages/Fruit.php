@@ -4,11 +4,13 @@ class Fruit{
     // properties
     public $name;
     public $color;
+    public $weight;
 
     // The __construct Function
-    function __construct($name = null, $color = null){
+    function __construct($name = null, $color = null, $weight = null){
         $this->name = $name;
         $this->color = $color;
+        $this->weight = $weight;
         
     
     }
@@ -32,12 +34,18 @@ class Fruit{
     function get_name(){    
         return $this->name;
     }    
-    function set_color($color){
+    protected function set_color($color){
         $this->color = $color;
     }
 
     function get_color(){
         return $this->color;
+    }
+    private function set_weight($weight){
+        $this->weight = $weight;
+    }
+    function get_weight(){
+        return $this->weight;
     }
     
 }
@@ -47,8 +55,8 @@ class Fruit{
 $apple = new Fruit();
 $banana = new Fruit();
 
-$apple->setname('Apple', 'Red');
-$banana->setname('Banana', 'Yellow');
+$apple->setname('Apple', 'Red', 300);
+$banana->setname('Banana', 'Yellow', 150);
 
 echo $apple->get_name();
 echo "<br>";
@@ -59,5 +67,11 @@ echo "<br>";
 echo $banana->get_color();
 echo $apple->get_color();
 
+echo "<br>";
+
+$mango = new Fruit();
+$mango->setname("Mango");
+// $mango->setcolor(" Green");
+// $mango->set_weight(300);
 var_dump($apple instanceof Fruit); // true
 ?>
