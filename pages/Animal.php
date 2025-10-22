@@ -1,6 +1,6 @@
 <?php
 // Inheritance example class
-class Animal{
+final class Animal{
 
     public $name;
     public $color;
