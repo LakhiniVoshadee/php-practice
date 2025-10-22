@@ -13,9 +13,12 @@ class Fruit{
     
     }
 
+    
     // The __destruct Function
 
-    
+    function __destruct() {
+    echo "The fruit is {$this->name} and the color is {$this->color}.";
+  }
 
     // methods
 
