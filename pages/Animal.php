@@ -26,11 +26,14 @@ class Animal{
 class Dog extends Animal{
     public function message(){
         echo "Am I a animal or a dog?";
-    }
+    
+    // call protected method from within derived class - OK
+    $this -> intro();
 }
-
+}
 // Create an object of the Dog class
 $dog = new Dog("Dog", "Brown");
-$dog->message();
-$dog->intro(); //error. intro() is protected
+$dog->message();  // OK. message() is public and it calls intro()
+// (which is protected) from within the derived class
+//$dog->intro(); //error. intro() is protected
 ?>
