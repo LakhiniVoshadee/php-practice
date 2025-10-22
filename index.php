@@ -21,5 +21,6 @@
     <a href="/pages/Abstract.php"> Abstract</a>
     <br>
     <a href="/pages/Interfaces.php"> Interfaces</a>
-
-</html>
+    <br>
+    <a href="/pages/Traits.php"> Trait</a>
+</body>
